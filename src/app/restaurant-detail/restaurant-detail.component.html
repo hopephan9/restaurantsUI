@@ -1,0 +1,28 @@
+<div *ngIf="restaurant">
+
+  <h2>{{restaurant.name}}</h2>
+
+  <!-- input name, if you want to change
+  <div>
+    <label for="restaurant-name"> Restaurant: </label>
+    <input id="restaurant-name" [(ngModel)]="restaurant.name" placeholder="name">
+  </div>
+  -->
+
+  <div><span><label>Name: </label></span>{{restaurant.name}}</div>
+  <div><span><label>Cuisine: </label></span>{{restaurant.description}}</div>
+  <div><span><label>Chain: </label></span>{{restaurant.chain}}</div>
+  <div><span><label>Address: </label></span>{{restaurant.address}}</div>
+  <div><span><label>Open: </label></span>{{restaurant.open}}</div>
+  <div><span><label>Close: </label></span>{{restaurant.close}}</div>
+
+  <p>
+  </p>
+
+  <h2>Additional Information</h2>
+  <div><span><label>Restaurant's ID Number: </label></span>{{restaurant.id}}</div>
+  <div><span><label>Restaurant's URL: </label></span>{{restaurant.url}}</div>
+
+  <button type="button" (click)="save()">save</button>
+  <button type="button" (click)="goBack()">go back</button>
+</div>

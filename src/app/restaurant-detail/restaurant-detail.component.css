@@ -1,0 +1,37 @@
+/* HeroDetailComponent's private CSS styles */
+label {
+  color: #435960;
+  font-weight: bold;
+  font-family: Baghdad;
+}
+
+h2{
+  color: #3f525c;
+  font-family: "Hiragino Mincho Pro";
+  font-weight: bold;
+}
+
+url{
+  font-family: Baghdad;
+}
+
+input {
+  font-size: 1em;
+  padding: .5rem;
+  font-family: Baghdad;
+}
+button {
+  margin-top: 20px;
+  background-color: #eee;
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button:disabled {
+  background-color: #eee;
+  color: #ccc;
+  cursor: auto;
+}

@@ -1,0 +1,76 @@
+h2 {
+  text-align: center;
+}
+
+p{
+  color: white;
+  margin-left:25%;
+  margin-right:25%;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: Charter;
+}
+
+.image{
+  height:40em; background-size:cover; width:auto;
+  background-image:url('https://cdn.brandfolder.io/CBWQP80B/as/q3sxft-cdnf9s-qoa5p/3840x2160-jumbrotron-atlanta.png');
+  background-position:50% 50%;
+  opacity: 90%
+
+}
+
+button{
+  /*Change the width as much as you like, but make sure
+  margin-left and margin-right + width = 100%*/
+  width:50%;
+  margin-left:25%;
+  margin-right:25%;
+}
+
+.restaurants-menu {
+  padding: 0;
+  margin: auto;
+  max-width: 1000px;
+
+  /* flexbox */
+  display: inline;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+
+a {
+  background-color: white;
+  border-radius: 0px;
+  padding: 1rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  display: inline-block;
+  color: lightslategray;
+  text-align: center;
+  box-sizing: border-box;
+  margin-left:40%;
+  margin-right:60%;
+  font-family: "Heiti SC";
+  /* flexbox */
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  margin-top: 20%;
+}
+
+
+@media (min-width: 600px) {
+  a {
+    width: 18%;
+    box-sizing: content-box;
+  }
+}
+
+a:hover {
+  background-color: #000;
+}
