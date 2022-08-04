@@ -12,6 +12,9 @@ header {
 
 }
 
+agm-map {
+  height: 300px;
+}
 
 h1 {
   margin-bottom: 0;

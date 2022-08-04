@@ -4,10 +4,12 @@ import { RestaurantsComponent } from './restaurants/restaurants.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { RestaurantDetailComponent } from './restaurant-detail/restaurant-detail.component';
 import {HomeComponent} from "./home/home.component";
+import {MapComponent} from "./map/map.component";
 
 const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: 'home', component: HomeComponent },
+  { path: 'map', component: MapComponent },
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
   { path: 'detail/:id', component: RestaurantDetailComponent },
   { path: 'restaurants', component: RestaurantsComponent },

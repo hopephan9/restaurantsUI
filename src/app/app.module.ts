@@ -12,6 +12,8 @@ import { MessagesComponent } from './messages/messages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { RestaurantSearchComponent } from './restaurant-search/restaurant-search.component';
 import { HomeComponent } from './home/home.component';
+import { MapComponent } from './map/map.component';
+
 
 
 //need help
@@ -33,6 +35,7 @@ import { HomeComponent } from './home/home.component';
     DashboardComponent,
     RestaurantSearchComponent,
     HomeComponent,
+    MapComponent,
   ],
   imports: [BrowserModule,
     FormsModule,
